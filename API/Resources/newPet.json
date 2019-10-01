@@ -1,0 +1,18 @@
+{
+    "id": 121991,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "blackcat",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
