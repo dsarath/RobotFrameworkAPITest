@@ -5,6 +5,6 @@ cache: pip
 install:
   - pip install -r requirements.pip
 script:
-  - robot -i HealthCheck  .\API\Tests\
-  - robot -i Contract  .\API\Tests\
-  - robot -e HealthCheck  -e Contract  .\API\Tests\
+  - robot -i HealthCheck  API/Tests/
+  - robot -i Contract  /API/Tests/
+  - robot -e HealthCheck  -e Contract  /API/Tests/
